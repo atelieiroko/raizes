@@ -53,7 +53,7 @@ export default function HeroSection({ onCtaClick, onScrollDown }: HeroSectionPro
             transition={{ delay: 0.3, duration: 0.8 }}
             className="text-3xl md:text-5xl font-bold tracking-tight text-white leading-[1.12] balance max-w-4xl"
           >
-            Torne-se um <span className="text-gold-gradient font-black relative inline-block">especialista</span> em cacheados e ondulados, e aprenda a entregar resultados que fazem seus clientes voltarem e indicarem seu trabalho.
+            Torne-se um <span className="text-gold-gradient font-black relative inline-block">especialista</span> em cabelos cacheados e ondulados, e aprenda a entregar resultados que fazem seus clientes voltarem e indicarem seu trabalho.
           </motion.h2>
 
           <motion.p
