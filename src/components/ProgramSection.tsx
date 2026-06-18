@@ -15,7 +15,7 @@ export default function ProgramSection() {
         <div className="text-center space-y-4 mb-16 max-w-4xl mx-auto">
           <span className="inline-flex items-center gap-2 bg-brand-accent/15 px-4 py-1.5 rounded-full text-xs font-bold tracking-widest text-[#B27B5C] uppercase">
             <BookOpen className="w-3.5 h-3.5 text-brand-secondary" />
-            Cronograma de Alta Performance
+            Cronograma
           </span>
           <h2 className="text-2xl md:text-4xl font-black tracking-tight text-neutral-900 leading-tight uppercase">
             O QUE VOCÊ VAI DOMINAR DURANTE A <span className="text-brand-secondary">FORMAÇÃO RAÍZES</span>
