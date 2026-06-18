@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Remix: Formação Raízes",
+  "description": "Uma landing page de alta conversão para a Formação Raízes, especialização presencial em cabelos crespos e cacheados por Inayê Souza.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

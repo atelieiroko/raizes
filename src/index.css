@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600;1,700;1,800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", system-ui, -apple-system, sans-serif;
+  --color-brand-primary: #121212; /* Deep sophisticated charcoal block */
+  --color-brand-secondary: #C19263; /* Refined golden bronze */
+  --color-brand-dark: #0F0F0F; /* Pure rich obsidian black background */
+  --color-brand-light: #F8F5F2; /* Pure crisp bright premium off-white */
+  --color-brand-accent: #E5B25D; /* Refined metallic warm gold helper from creative */
+  --color-brand-nude: #E5E1DA; /* Premium soft clay nude backdrop */
+}
+
+/* Gold Gradient utilities representing the exact palette in the creative */
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #7A5328 0%, #C99A53 25%, #FFF0CD 50%, #C99A53 75%, #7A5328 100%);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #7A5328 0%, #C99A53 25%, #FFF0CD 50%, #C99A53 75%, #7A5328 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* Custom layout class and smoothing */
+html, body {
+  font-family: "Montserrat", system-ui, -apple-system, sans-serif;
+  scroll-behavior: smooth;
+  background-color: var(--color-brand-dark);
+  color: #F5F5F5;
+  -webkit-font-smoothing: antialiased;
+}
+
